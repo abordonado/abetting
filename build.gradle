@@ -25,6 +25,17 @@ dependencies {
 	annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
 }
 
+
+// Add these START
+bootJar {
+    archiveClassifier.set('boot')
+}
+
+jar {
+    archiveClassifier.set('')
+}
+// Add these END
+
 test {
 	useJUnitPlatform()
 }
