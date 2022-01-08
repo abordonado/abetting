@@ -16,6 +16,6 @@ jobs:
         heroku_email: ${{secrets.HEROKU_EMAIL}}
         heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
       env:
-        EXTERNALAPI_URL: ${{secrets.EXTERNALAPI_URL}}
-        EXTERNALAPI_KEY: ${{secrets.EXTERNALAPI_KEY}}
-        EXTERNALAPI_HEADERNAME: ${{secrets.EXTERNALAPI_HEADERNAME}}
+        HD_EXTERNALAPI_URL: ${{secrets.EXTERNALAPI_URL}}
+        HD_EXTERNALAPI_KEY: ${{secrets.EXTERNALAPI_KEY}}
+        HD_EXTERNALAPI_HEADERNAME: ${{secrets.EXTERNALAPI_HEADERNAME}}
